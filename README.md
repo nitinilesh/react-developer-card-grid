@@ -4,16 +4,25 @@ A responsive React application that displays developer profile cards in a clean 
 Built using **React**, **CSS Grid**, and **reusable components**.
 
 ---
-📸 Preview
 
-Responsive grid layout
+## 📸 Preview
 
-🖥 Desktop — 3 Columns
-<img src="https://github.com/user-attachments/assets/1519c87f-f369-457d-b8ee-be17e50eec9f" width="100%" />
-📱 Tablet — 2 Columns
-<img src="https://github.com/user-attachments/assets/57136f80-fce7-46f5-a187-44c38ea6aad5" width="100%" />
-📱 Mobile — 1 Column
-<img src="https://github.com/user-attachments/assets/d9068434-0eef-4a7b-97ca-a92e5a6f535c" width="100%" />
+**Responsive grid layout**
+
+### 🖥 Desktop — 3 Columns
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1519c87f-f369-457d-b8ee-be17e50eec9f" width="250" />
+</p>
+
+### 📱 Tablet — 2 Columns
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/57136f80-fce7-46f5-a187-44c38ea6aad5" width="250" />
+</p>
+
+### 📱 Mobile — 1 Column
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9068434-0eef-4a7b-97ca-a92e5a6f535c" width="250" />
+</p>
 
 ---
 
@@ -35,6 +44,9 @@ Responsive grid layout
 
 ---
 
+## 📂 Folder Structure
+
+```text
 react-developer-card-grid/
 │
 ├── public/
@@ -53,8 +65,3 @@ react-developer-card-grid/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
-
----
-
-## 📂 Folder Structure
