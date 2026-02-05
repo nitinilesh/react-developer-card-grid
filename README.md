@@ -1,16 +1,60 @@
-# React + Vite
+# React Developer Card Grid 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that displays developer profile cards in a clean grid layout.  
+Built using **React**, **CSS Grid**, and **reusable components**.
 
-Currently, two official plugins are available:
+---
+📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive grid layout
 
-## React Compiler
+🖥 Desktop — 3 Columns
+<img src="https://github.com/user-attachments/assets/1519c87f-f369-457d-b8ee-be17e50eec9f" width="100%" />
+📱 Tablet — 2 Columns
+<img src="https://github.com/user-attachments/assets/57136f80-fce7-46f5-a187-44c38ea6aad5" width="100%" />
+📱 Mobile — 1 Column
+<img src="https://github.com/user-attachments/assets/d9068434-0eef-4a7b-97ca-a92e5a6f535c" width="100%" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Reusable `Card` component
+- Data-driven UI using `.map()`
+- Props spreading (`{...dev}`)
+- Fully responsive CSS Grid layout
+- Clean and minimal UI
+- Beginner-friendly React patterns
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- CSS Grid
+- HTML5
+
+---
+
+react-developer-card-grid/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   └── Card.jsx        # Reusable developer card component
+│   │
+│   ├── Data.js             # Developer profile data (array of objects)
+│   ├── App.jsx             # Main app component
+│   ├── index.css           # Global styles & grid layout
+│   └── main.jsx            # React entry point
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+---
+
+## 📂 Folder Structure
